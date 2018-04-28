@@ -1,0 +1,101 @@
+
+.navbar{
+  border-bottom: white 3px solid;
+  opacity: .8;
+  max-height: 80px;
+  background-color: #333;
+}
+.navbar img{
+  width: 75px;
+  height: 75px
+}
+.navbar a{
+  color: #fff
+}
+.navbar-expand-sm .navbar-nav .dropdown-menu{
+  background-color: #000
+}
+.foods{
+    padding 70px 0
+}
+.foods h1{
+    font-family 'Raleway', sans-serif;
+    letter-spacing -2px;
+    font-size 62px;
+  }
+.foods hr{
+    width 70%;
+  }
+#menu .foods-menu{
+      margin-left: 61px;
+      position: relative;
+      float: left;
+
+    }
+.foods-item{
+  margin: 30px 30px 40px;
+  float: left;
+  position: relative;
+  border: 1px solid #ddd
+}
+
+.foods-item-name{
+  position: absolute;
+    top: 4px;
+    left: 110px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+.foods-item-price{
+    position: absolute;
+    top: 78px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    font-weight: bold;
+}
+.customize1 , .customize2 ,.customize3, .customize4, .customize5, .customize6{
+    color: #fff;
+    background-color: #333;
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    top :377px;
+
+}
+.undo1 , .undo2 ,.undo3 , .undo4 , .undo5 ,.undo6{
+  color: #fff;
+  background-color: #333;
+  position: absolute;
+  left: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  top :377px;
+
+
+}
+.foods-menu .input1 , .input2 , .input3 , .input4 , .input5 , .input6{
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  position: absolute;
+  top: 378px;
+  left: 171px;
+}
+.main-footer{
+    height: 102px;
+    position: absolute;
+    top: 1072px;
+    background-color: #444;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 18px;
+
+}

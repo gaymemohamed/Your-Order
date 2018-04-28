@@ -1,0 +1,102 @@
+<!DocType html> 
+<html>
+	<head>
+		<title>Contact US</title>
+		<meta=charset="utf-8">
+		<meta name="description" content="welcome to my website">
+		<style>
+		body{background-color:bisque;font-family:arial,tahoma}  
+		fieldset{
+		background-color: darkseagreen;
+		border:1px solid #ccc;
+		padding:10px;
+		width:500px;	
+		margin:150px auto
+		}
+		legend{
+		background:#fff;
+		border:1px solid #ccc;
+		padding:5px
+		}
+		input[type ="text"],
+		input[type="password"],
+		textarea
+		{width:400px;
+		padding:8px;
+		display:block;
+            margin-bottom: 8px}
+		hr{border:1px solid#ddd}
+		select{padding:5px}
+		textarea{
+		height=500px;
+		margin-bottom:10px}
+            inpBox{
+                background-color: #fff;
+                border: 1px solid #666
+            }
+            inpBoxError{
+                border: 2px solid #ff0000
+            }
+		</style>
+		<script>
+		</script>
+	</head>
+	<body>
+	<form name="register"  method="post" onsubmit="return verify()">
+	<fieldset>
+	<legend>Contact US</legend>
+	<label>User Name</label>
+	<input type="text" name="user_name"  id="name" placeholder="enter your username" class="inpBox">
+	<label>Password</label>
+    <input type="password" name="password"  id="pass" placeholder="enter your password" class="inpBox">    
+    <label>Phone Number</label>
+	<input type="text" name="Phone_Number" id="phone" placeholder="enter your phone number" class="inpBox">    
+	
+	<label>E_mail</label>
+	<input type="text" name="e_mail" id="email" placeholder="enter your e_mail" class="inpBox">
+	<br>
+    <label>Your message</label>    
+	<textarea></textarea>
+        
+	<input type="submit" value="send">
+    <input type="reset" value="Reset">    
+	</fieldset>
+        </form>
+        <script>
+        function verify(){
+            var user = document.getElementById("name");
+            var pass = document.getElementById("pass");
+            var email = document.getElementById("email");
+            var phone = document.getElementById("phone");
+            var msg = "";
+            if(user.value == ""){
+                msg+="Phlease enter the user name ! \n";
+                user.className = "inpBoxError";
+            }
+            if(pass.value == ""){
+                msg+="Phlease enter the password ! \n";
+                user.className = "inpBoxError";
+            }
+            if(email.value == ""){
+                msg+="Phlease enter the E-mail ! \n";
+                user.className = "inpBoxError";
+            }
+            if(phone.value == ""){
+                msg+="Phlease enter the PhoneNumber ! \n";
+                user.className = "inpBoxError";
+            }
+            if(isNaN(register.phone.value)){
+                msg+="Phlease enter right the PhoneNumber ! \n";
+                user.className = "inpBoxError";
+            }
+            
+            if (msg == ""){
+                return true;
+            }else
+                alert(msg);
+                return false;
+            }
+            
+        </script>    
+	</body>
+</html>

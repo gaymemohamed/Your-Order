@@ -1,0 +1,41 @@
+
+.navbar{
+  border-bottom: white 3px solid;
+  opacity: .8;
+  max-height: 80px;
+  background-color: #333;
+}
+.navbar img{
+  width: 75px;
+  height: 75px
+}
+.navbar a{
+  color: #fff
+}
+.navbar-expand-sm .navbar-nav .dropdown-menu{
+  background-color: #000
+}
+.see_foods
+    padding 70px 0
+.see_foods h1
+    font-family 'Raleway', sans-serif;
+    letter-spacing -2px;
+    font-size 62px;
+.see_foods hr
+    width 70%;
+.sea-menu{
+      background-color: #777
+}
+.sea-menu p {
+    font-weight: bold;
+
+}
+.sea-menu img{
+      background-color: #fff;
+      border:1px solid #ccc;
+      box-shadow: 10px 10px 15px #ccc
+}
+.footer{
+  border-top: 3px solid #fff;
+
+}

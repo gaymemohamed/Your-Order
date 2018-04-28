@@ -1,0 +1,51 @@
+
+.navbar{
+  border-bottom: white 3px solid;
+  opacity: .8;
+  max-height: 80px;
+  background-color: #333;
+}
+.navbar img{
+  width: 75px;
+  height: 75px
+}
+.navbar a{
+  color: #fff
+}
+.navbar-expand-sm .navbar-nav .dropdown-menu{
+  background-color: #000
+}
+
+.contact-us {
+    background : url(../imgaes/pexels-photo.jpg)top;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 800px;
+    margin-top: -151px;
+}
+.contact-us h1{
+    font-family: 'Raleway', sans-serif;
+  }
+.contact-us .fildes{
+    background-color: rgba(8,8,8,.4)
+    color: #ddd
+    min-height: 800px
+    padding-bottom: 50px
+    padding-top: 50px
+  }
+.contact-us .fildes-body{
+    margin-top: 150px
+  }
+.contact-us .fildes p{
+    margin-bottom: 40px
+  }
+.contact-us textarea{
+    height: 108px
+  }
+/* End  contact Us */
+.footer{
+  border-top: 3px solid #fff;
+
+}

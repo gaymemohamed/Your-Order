@@ -1,0 +1,32 @@
+
+.navbar{
+  border-bottom: white 3px solid;
+  opacity: .8;
+  max-height: 80px;
+  background-color: #333;
+}
+.navbar img{
+  width: 75px;
+  height: 75px
+}
+.navbar a{
+  color: #fff
+}
+.navbar-expand-sm .navbar-nav .dropdown-menu{
+  background-color: #000
+}
+.about-us
+    padding 70px 0
+.about-us h1
+    font-family 'Raleway', sans-serif;
+    letter-spacing -2px;
+    font-size 62px;
+.about-us hr
+    width 70%;
+
+.about-us img
+    height 600px;
+.footer{
+  border-top: 3px solid #fff;
+  
+}
