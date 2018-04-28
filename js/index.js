@@ -19,6 +19,15 @@ var undoButton12= document.querySelectorAll('.undo12');
 var undoButton13= document.querySelectorAll('.undo13');
 var undoButton14= document.querySelectorAll('.undo14');
 var undoButton15= document.querySelectorAll('.undo15');
+var undoButton16= document.querySelectorAll('.undo16');
+var undoButton17= document.querySelectorAll('.undo17');
+var undoButton18= document.querySelectorAll('.undo18');
+var undoButton19= document.querySelectorAll('.undo19');
+var undoButton20= document.querySelectorAll('.undo20');
+var undoButton21= document.querySelectorAll('.undo21');
+var undoButton22= document.querySelectorAll('.undo22');
+var undoButton23= document.querySelectorAll('.undo23');
+var undoButton24= document.querySelectorAll('.undo24');
 var customizeButton1 = document.querySelectorAll('.customize1'),
 customizeButton2 = document.querySelectorAll('.customize2') ,
 customizeButton3 = document.querySelectorAll('.customize3') ,
@@ -34,6 +43,15 @@ customizeButton12 = document.querySelectorAll('.customize12') ,
 customizeButton13 = document.querySelectorAll('.customize13') ,
 customizeButton14 = document.querySelectorAll('.customize14') ,
 customizeButton15 = document.querySelectorAll('.customize15') ;
+customizeButton16 = document.querySelectorAll('.customize16') ;
+customizeButton17 = document.querySelectorAll('.customize17') ;
+customizeButton18 = document.querySelectorAll('.customize18') ;
+customizeButton19 = document.querySelectorAll('.customize19') ;
+customizeButton20 = document.querySelectorAll('.customize20') ;
+customizeButton21 = document.querySelectorAll('.customize21') ;
+customizeButton22 = document.querySelectorAll('.customize22') ;
+customizeButton23 = document.querySelectorAll('.customize23') ;
+customizeButton24 = document.querySelectorAll('.customize24') ;
 
 var orderCount1 = document.querySelector('#orderCount1') ;
 var orderCount2 = document.querySelector('#orderCount2') ;
@@ -50,6 +68,15 @@ var orderCount12 = document.querySelector('#orderCount12') ;
 var orderCount13 = document.querySelector('#orderCount13') ;
 var orderCount14 = document.querySelector('#orderCount14') ;
 var orderCount15 = document.querySelector('#orderCount15') ;
+var orderCount15 = document.querySelector('#orderCount16') ;
+var orderCount15 = document.querySelector('#orderCount17') ;
+var orderCount15 = document.querySelector('#orderCount18') ;
+var orderCount15 = document.querySelector('#orderCount19') ;
+var orderCount15 = document.querySelector('#orderCount20') ;
+var orderCount15 = document.querySelector('#orderCount21') ;
+var orderCount15 = document.querySelector('#orderCount22') ;
+var orderCount15 = document.querySelector('#orderCount23') ;
+var orderCount15 = document.querySelector('#orderCount24') ;
 var menuButton = document.querySelector("button.header");
 var categories = document.querySelector(".categories");
 var initialOrder1 = 0 ;
@@ -67,6 +94,15 @@ var initialOrder12 = 0  ;
 var initialOrder13 = 0  ;
 var initialOrder14 = 0  ;
 var initialOrder15 = 0  ;
+var initialOrder16 = 0  ;
+var initialOrder17 = 0  ;
+var initialOrder18 = 0  ;
+var initialOrder19 = 0  ;
+var initialOrder20 = 0  ;
+var initialOrder21 = 0  ;
+var initialOrder22 = 0  ;
+var initialOrder23 = 0  ;
+var initialOrder24 = 0  ;
 
 for (var i = 0 ; i < undoButton1.length ; i++){
     addEvent(undoButton1[i],undoItem1);
@@ -173,6 +209,70 @@ for(var  j = 0 ; j<customizeButton15.length  ;j++)
 {
     addEvent(customizeButton15[j],addItem15) ;
 }
+for (var i = 0 ; i < undoButton16.length ; i++){
+    addEvent(undoButton16[i],undoItem16);
+}
+for(var  j = 0 ; j<customizeButton16.length  ;j++)
+{
+    addEvent(customizeButton16[j],addItem16) ;
+}
+for (var i = 0 ; i < undoButton17.length ; i++){
+    addEvent(undoButton17[i],undoItem17);
+}
+for(var  j = 0 ; j<customizeButton17.length  ;j++)
+{
+    addEvent(customizeButton17[j],addItem17) ;
+}
+for (var i = 0 ; i < undoButton18.length ; i++){
+    addEvent(undoButton18[i],undoItem18);
+}
+for(var  j = 0 ; j<customizeButton18.length  ;j++)
+{
+    addEvent(customizeButton18[j],addItem18) ;
+}
+for (var i = 0 ; i < undoButton19.length ; i++){
+    addEvent(undoButton19[i],undoItem19);
+}
+for(var  j = 0 ; j<customizeButton19.length  ;j++)
+{
+    addEvent(customizeButton19[j],addItem19) ;
+}
+for (var i = 0 ; i < undoButton20.length ; i++){
+    addEvent(undoButton20[i],undoItem20);
+}
+for(var  j = 0 ; j<customizeButton20.length  ;j++)
+{
+    addEvent(customizeButton20[j],addItem20) ;
+}
+for (var i = 0 ; i < undoButton21.length ; i++){
+    addEvent(undoButton21[i],undoItem21);
+}
+for(var  j = 0 ; j<customizeButton21.length  ;j++)
+{
+    addEvent(customizeButton21[j],addItem21) ;
+}
+for (var i = 0 ; i < undoButton22.length ; i++){
+    addEvent(undoButton22[i],undoItem22);
+}
+for(var  j = 0 ; j<customizeButton22.length  ;j++)
+{
+    addEvent(customizeButton22[j],addItem22) ;
+}
+for (var i = 0 ; i < undoButton23.length ; i++){
+    addEvent(undoButton23[i],undoItem23);
+}
+for(var  j = 0 ; j<customizeButton23.length  ;j++)
+{
+    addEvent(customizeButton23[j],addItem23) ;
+}
+for (var i = 0 ; i < undoButton24.length ; i++){
+    addEvent(undoButton24[i],undoItem24);
+}
+for(var  j = 0 ; j<customizeButton24.length  ;j++)
+{
+    addEvent(customizeButton24[j],addItem24) ;
+}
+
 for (var i = 0 ; i < undoButton1.length ; i++){
     addEvent(undoButton1[i],undoItem1);
 }
@@ -493,6 +593,195 @@ function addItem15(){
  total_price +=2;
  total_price_order.innerHTML = total_price;
  console.log(initialOrder15)
+}
+function undoItem16(){
+ initialOrder16-- ;
+ orderCount16.value = initialOrder16;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item - 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price -=2;
+ total_price_order.innerHTML = total_price;
+}
+function addItem16(){
+ initialOrder16++ ;
+ orderCount16.value = initialOrder16;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item + 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price +=2;
+ total_price_order.innerHTML = total_price;
+ console.log(initialOrder16)
+}
+function undoItem17(){
+ initialOrder17-- ;
+ orderCount17.value = initialOrder17;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item - 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price -=2;
+ total_price_order.innerHTML = total_price;
+}
+function addItem17(){
+ initialOrder17++ ;
+ orderCount17.value = initialOrder17;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item + 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price +=2;
+ total_price_order.innerHTML = total_price;
+ console.log(initialOrder17)
+}
+function undoItem18(){
+ initialOrder18-- ;
+ orderCount18.value = initialOrder18;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item - 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price -=2;
+ total_price_order.innerHTML = total_price;
+}
+function addItem18(){
+ initialOrder18++ ;
+ orderCount18.value = initialOrder18;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item + 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price +=2;
+ total_price_order.innerHTML = total_price;
+ console.log(initialOrder18)
+}
+function undoItem19(){
+ initialOrder19-- ;
+ orderCount19.value = initialOrder19;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item - 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price -=2;
+ total_price_order.innerHTML = total_price;
+}
+function addItem19(){
+ initialOrder19++ ;
+ orderCount19.value = initialOrder19;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item + 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price +=2;
+ total_price_order.innerHTML = total_price;
+ console.log(initialOrder19)
+}
+function undoItem20(){
+ initialOrder20-- ;
+ orderCount20.value = initialOrder20;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item - 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price -=2;
+ total_price_order.innerHTML = total_price;
+}
+function addItem20(){
+ initialOrder20++ ;
+ orderCount20.value = initialOrder20;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item + 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price +=2;
+ total_price_order.innerHTML = total_price;
+ console.log(initialOrder20)
+}
+function undoItem21(){
+ initialOrder21-- ;
+ orderCount21.value = initialOrder21;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item - 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price -=2;
+ total_price_order.innerHTML = total_price;
+}
+function addItem21(){
+ initialOrder21++ ;
+ orderCount21.value = initialOrder21;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item + 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price +=2;
+ total_price_order.innerHTML = total_price;
+ console.log(initialOrder21)
+}
+function undoItem22(){
+ initialOrder22-- ;
+ orderCount22.value = initialOrder22;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item - 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price -=2;
+ total_price_order.innerHTML = total_price;
+}
+function addItem22(){
+ initialOrder22++ ;
+ orderCount22.value = initialOrder22;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item + 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price +=2;
+ total_price_order.innerHTML = total_price;
+ console.log(initialOrder22)
+}
+function undoItem23(){
+ initialOrder23-- ;
+ orderCount23.value = initialOrder23;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item - 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price -=2;
+ total_price_order.innerHTML = total_price;
+}
+function addItem23(){
+ initialOrder23++ ;
+ orderCount23.value = initialOrder23;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item + 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price +=2;
+ total_price_order.innerHTML = total_price;
+ console.log(initialOrder23)
+}
+function undoItem24(){
+ initialOrder24-- ;
+ orderCount24.value = initialOrder24;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item - 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price -=2;
+ total_price_order.innerHTML = total_price;
+}
+function addItem24(){
+ initialOrder24++ ;
+ orderCount24.value = initialOrder24;
+ selected_item =parseInt(total_order_items.innerHTML);
+ total_items = selected_item + 1;
+ total_order_items.innerHTML = total_items;
+ total_price = parseInt(total_price_order.innerHTML);
+ total_price +=2;
+ total_price_order.innerHTML = total_price;
+ console.log(initialOrder24)
 }
 
 function addEvent(element , event )

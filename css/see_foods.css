@@ -15,27 +15,88 @@
 .navbar-expand-sm .navbar-nav .dropdown-menu{
   background-color: #000
 }
-.see_foods
+.sea{
     padding 70px 0
-.see_foods h1
+}
+.sea h1{
     font-family 'Raleway', sans-serif;
     letter-spacing -2px;
     font-size 62px;
-.see_foods hr
+    margin-top: 25px
+  }
+.sea hr{
     width 70%;
-.sea-menu{
-      background-color: #777
+  }
+#menu .sea-menu{
+      margin-left: 61px;
+      position: relative;
+      float: left;
+
+    }
+.sea-item{
+  margin: 30px 30px 40px;
+  float: left;
+  position: relative;
+  border: 1px solid #ddd
 }
-.sea-menu p {
+
+.sea-item-name{
+  position: absolute;
+    top: 4px;
+    left: 110px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
     font-weight: bold;
+}
+.sea-item-price{
+    position: absolute;
+    top: 78px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    font-weight: bold;
+}
+.customize13 , .customize14 ,.customize15, .customize16, .customize17, .customize18{
+    color: #fff;
+    background-color: #333;
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    top :377px;
 
 }
-.sea-menu img{
-      background-color: #fff;
-      border:1px solid #ccc;
-      box-shadow: 10px 10px 15px #ccc
+.undo13 , .undo14,.undo15 , .undo16 , .undo17 ,.undo18{
+  color: #fff;
+  background-color: #333;
+  position: absolute;
+  left: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  top :377px;
+
+
 }
-.footer{
-  border-top: 3px solid #fff;
+.sea-menu .input13 , .input14 , .input15 , .input16 , .input17 , .input18{
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  position: absolute;
+  top: 378px;
+  left: 171px;
+}
+.main-footer{
+    height: 102px;
+    position: absolute;
+    top: 1072px;
+    background-color: #444;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 18px;
 
 }

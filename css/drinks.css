@@ -13,31 +13,90 @@
   color: #fff
 }
 .navbar-expand-sm .navbar-nav .dropdown-menu{
-  background-color: #000
+  background-color: #000;
 }
-.drink h1
+.drink{
+    padding 70px 0
+}
+.drink h1{
     font-family 'Raleway', sans-serif;
     letter-spacing -2px;
     font-size 62px;
-.drink hr
+    margin-top: 25px
+  }
+.drink hr{
     width 70%;
-.drink-menu img{
-  width: 500px;
-  height: 500px
+  }
+#menu .drink-menu{
+      margin-left: 61px;
+      position: relative;
+      float: left;
+
+    }
+.drink-item{
+  margin: 30px 30px 40px;
+  float: left;
+  position: relative;
+  border: 1px solid #ddd
 }
-.drinks-menu{
-  background-color: #777
+
+.drink-item-name{
+  position: absolute;
+    top: 4px;
+    left: 110px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
 }
-.drinks-menu p {
-  font-weight: bold;
+.drink-item-price{
+    position: absolute;
+    top: 78px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    font-weight: bold;
+}
+.customize19 , .customize20 ,.customize21, .customize22, .customize23, .customize24{
+    color: #fff;
+    background-color: #333;
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    top :377px;
 
 }
-.drinks-menu img{
-  background-color: #fff;
-  border:1px solid #ccc;
-  box-shadow: 10px 10px 15px #ccc
+.undo19 , .undo20,.undo21 , .undo22 , .undo23 ,.undo24{
+  color: #fff;
+  background-color: #333;
+  position: absolute;
+  left: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  top :377px;
+
+
 }
-.footer{
-  border-top: 3px solid #fff;
+.drink-menu .input19 , .input20 , .input21 , .input22 , .input23 , .input24{
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  position: absolute;
+  top: 378px;
+  left: 171px;
+}
+.main-footer{
+    height: 102px;
+    position: absolute;
+    top: 1072px;
+    background-color: #444;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 18px;
 
 }
