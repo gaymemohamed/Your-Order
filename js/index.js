@@ -279,508 +279,475 @@ for (var i = 0 ; i < undoButton1.length ; i++){
 function undoItem1(){
  initialOrder1-- ;
  orderCount1.value = initialOrder1;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=2;
- total_price_order.innerHTML = total_price;
+
 }
 
 function addItem1(){
- initialOrder1++ ;
- orderCount1.value = initialOrder1;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
- total_price +=2;
- total_price_order.innerHTML = total_price;
- var themain = document.createElement("div");
-
- console.log(initialOrder1);
+  initialOrder1++ ;
+  orderCount1.value = initialOrder1;
+  total_items = selected_item + 1;
+  total_price +=2;
+  var themain = document.createElement("div");
+  console.log(initialOrder1);
 }
 function undoItem2(){
- initialOrder2-- ;
- orderCount2.value = initialOrder2;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
- total_price -=2;
- total_price_order.innerHTML = total_price;
+  initialOrder2-- ;
+  orderCount2.value = initialOrder2;
+  total_items = selected_item - 1;
+
+  total_price -=2;
 }
 function addItem2(){
- initialOrder2++ ;
- orderCount2.value = initialOrder2;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
- total_price +=2;
- total_price_order.innerHTML = total_price;
- console.log(initialOrder2)
+  initialOrder2++ ;
+  orderCount2.value = initialOrder2;
+  total_items = selected_item + 1;
+  total_price +=2;
+  console.log(initialOrder2)
 }
 function undoItem3(){
- initialOrder3-- ;
- orderCount3.value = initialOrder3;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
- total_price -=2;
- total_price_order.innerHTML = total_price;
+  initialOrder3-- ;
+  orderCount3.value = initialOrder3;
+  total_items = selected_item - 1;
+  total_price -=2;
 }
 function addItem3(){
- initialOrder3++ ;
- orderCount3.value = initialOrder3;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
- total_price +=2;
- total_price_order.innerHTML = total_price;
- console.log(initialOrder3)
+  initialOrder3++ ;
+  orderCount3.value = initialOrder3;
+
+  total_items = selected_item + 1;
+  total_price +=2;
+  console.log(initialOrder3)
 }
 function undoItem4(){
- initialOrder4-- ;
- orderCount4.value = initialOrder4;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
- total_price -=2;
- total_price_order.innerHTML = total_price;
+  initialOrder4-- ;
+  orderCount4.value = initialOrder4;
+  total_items = selected_item - 1;
+  total_price -=2;
 }
 function addItem4(){
- initialOrder4++ ;
- orderCount4.value = initialOrder4;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
- total_price +=2;
- total_price_order.innerHTML = total_price;
- console.log(initialOrder4)
+  initialOrder4++ ;
+  orderCount4.value = initialOrder4;
+  total_items = selected_item + 1;
+  total_price +=2;
+  console.log(initialOrder4)
 }
 function undoItem5(){
- initialOrder5-- ;
- orderCount5.value = initialOrder5;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
- total_price -=2;
- total_price_order.innerHTML = total_price;
+  initialOrder5-- ;
+  orderCount5.value = initialOrder5;
+
+  total_items = selected_item - 1;
+  total_price -=2;
 }
 function addItem5(){
- initialOrder5++ ;
- orderCount5.value = initialOrder5;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
- total_price +=2;
- total_price_order.innerHTML = total_price;
- console.log(initialOrder5)
+  initialOrder5++ ;
+  orderCount5.value = initialOrder5;
+  total_items = selected_item + 1;
+
+
+  total_price +=2;
+
+  console.log(initialOrder5)
 }
 function undoItem6(){
- initialOrder6-- ;
- orderCount6.value = initialOrder6;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
- total_price -=1.25;
- total_price_order.innerHTML = total_price;
+  initialOrder6-- ;
+  orderCount6.value = initialOrder6;
+
+  total_items = selected_item - 1;
+
+
+  total_price -=1.25;
+
 }
 function addItem6(){
- initialOrder6++ ;
- orderCount6.value = initialOrder6;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
- total_price +=1.25 ;
- total_price_order.innerHTML = total_price;
- console.log(initialOrder6)
+  initialOrder6++ ;
+  orderCount6.value = initialOrder6;
+
+  total_items = selected_item + 1;
+
+
+  total_price +=1.25 ;
+  console.log(initialOrder6)
 }
 function undoItem7(){
- initialOrder7-- ;
- orderCount7.value = initialOrder7;
- selected_item =parseInt(total_order_items.innerHTML);
- total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
- total_price -=2.75;
- total_price_order.innerHTML = total_price;
+  initialOrder7-- ;
+  orderCount7.value = initialOrder7;
+
+  total_items = selected_item - 1;
+
+  total_price -=2.75;
+
 }
 function addItem7(){
- initialOrder7++ ;
- orderCount7.value = initialOrder7;
- selected_item =parseInt(total_order_items.innerHTML);
+  initialOrder7++ ;
+  orderCount7.value = initialOrder7;
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price +=2.750;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder7)
 }
 function undoItem8(){
  initialOrder8-- ;
  orderCount8.value = initialOrder8;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price -=1.25;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem8(){
  initialOrder8++ ;
  orderCount8.value = initialOrder8;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price +=1.25;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder5)
 }
 function undoItem9(){
  initialOrder9-- ;
  orderCount9.value = initialOrder9;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price -=1.5;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem9(){
  initialOrder9++ ;
  orderCount9.value = initialOrder9;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price +=1.5;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder9)
 }
 function undoItem10(){
  initialOrder10-- ;
  orderCount10.value = initialOrder10;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price -=1.5;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem10(){
  initialOrder10++ ;
  orderCount10.value = initialOrder10;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price +=1.5;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder10)
 }
 function undoItem11(){
  initialOrder11-- ;
  orderCount11.value = initialOrder11;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price -=2.5;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem11(){
  initialOrder11++ ;
  orderCount11.value = initialOrder11;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price +=2.5;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder11)
 }
 function undoItem12(){
  initialOrder12-- ;
  orderCount12.value = initialOrder12;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price -=1.5;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem12(){
  initialOrder12++ ;
  orderCount12.value = initialOrder12;
  selected_item =parseFloat(total_order_items.innerHTML);
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price +=1.5;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder12)
 }
 function undoItem13(){
  initialOrder13-- ;
  orderCount13.value = initialOrder13;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=3;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem13(){
  initialOrder13++ ;
  orderCount13.value = initialOrder13;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price +=3;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder13)
 }
 function undoItem14(){
  initialOrder14-- ;
  orderCount14.value = initialOrder14;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price -=1.75;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem14(){
  initialOrder14++ ;
  orderCount14.value = initialOrder14;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseFloat(total_price_order.innerHTML);
+
+
  total_price +=1.75;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder14)
 }
 function undoItem15(){
  initialOrder15-- ;
  orderCount15.value = initialOrder15;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=2;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem15(){
  initialOrder15++ ;
  orderCount15.value = initialOrder15;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price +=2;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder15)
 }
 function undoItem16(){
  initialOrder16-- ;
  orderCount16.value = initialOrder16;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=2;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem16(){
  initialOrder16++ ;
  orderCount16.value = initialOrder16;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price +=2;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder16)
 }
 function undoItem17(){
  initialOrder17-- ;
  orderCount17.value = initialOrder17;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=2;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem17(){
  initialOrder17++ ;
  orderCount17.value = initialOrder17;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price +=2;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder17)
 }
 function undoItem18(){
  initialOrder18-- ;
  orderCount18.value = initialOrder18;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=2;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem18(){
  initialOrder18++ ;
  orderCount18.value = initialOrder18;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price +=2;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder18)
 }
 function undoItem19(){
  initialOrder19-- ;
  orderCount19.value = initialOrder19;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=2;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem19(){
  initialOrder19++ ;
  orderCount19.value = initialOrder19;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price +=2;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder19)
 }
 function undoItem20(){
  initialOrder20-- ;
  orderCount20.value = initialOrder20;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=2;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem20(){
  initialOrder20++ ;
  orderCount20.value = initialOrder20;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price +=2;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder20)
 }
 function undoItem21(){
  initialOrder21-- ;
  orderCount21.value = initialOrder21;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=2;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem21(){
  initialOrder21++ ;
  orderCount21.value = initialOrder21;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price +=2;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder21)
 }
 function undoItem22(){
  initialOrder22-- ;
  orderCount22.value = initialOrder22;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=2;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem22(){
  initialOrder22++ ;
  orderCount22.value = initialOrder22;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price +=2;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder22)
 }
 function undoItem23(){
  initialOrder23-- ;
  orderCount23.value = initialOrder23;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=2;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem23(){
  initialOrder23++ ;
  orderCount23.value = initialOrder23;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price +=2;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder23)
 }
 function undoItem24(){
  initialOrder24-- ;
  orderCount24.value = initialOrder24;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item - 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price -=2;
- total_price_order.innerHTML = total_price;
+
 }
 function addItem24(){
  initialOrder24++ ;
  orderCount24.value = initialOrder24;
- selected_item =parseInt(total_order_items.innerHTML);
+
  total_items = selected_item + 1;
- total_order_items.innerHTML = total_items;
- total_price = parseInt(total_price_order.innerHTML);
+
+
  total_price +=2;
- total_price_order.innerHTML = total_price;
+
  console.log(initialOrder24)
 }
 
