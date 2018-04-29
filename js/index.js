@@ -790,36 +790,30 @@ function addEvent(element , event )
     element.onclick = event;
 }
 
-$(document).ready(function(){
-    $(menuButton).click(function(){
-        $(categories).toggleClass("active");
-    })
-
-    $(".hot").click(function(){
-            $('.hot-drinks-section').fadeIn(100);
-            $('.cold-drinks-section').hide();
-            $('.sweet-section').hide();
-            $('.light-food-section').hide();
+    $(".head-pizza").click(function(){
+            $('.pizza-menu').fadeIn(100);
+            $('.drink-menu').hide();
+            $('.foods-menu').hide();
+            $('.sea-menu').hide();
                                 })
-     $(".cold").click(function(){
-            $('.cold-drinks-section').fadeIn(100);
-            $('.hot-drinks-section').hide();
-            $('.sweet-section').hide();
-            $('.light-food-section').hide();
+     $(".head-drinks").click(function(){
+            $('.drink-menu').fadeIn(100);
+            $('.pizza-menu').hide();
+            $('.foods-menu').hide();
+            $('.sea-menu').hide();
                                 })
-    $(".sweet").click(function(){
-            $('.sweet-section').fadeIn(100);
-            $('.cold-drinks-section').hide();
-            $('.hot-drinks-section').hide();
-            $('.light-food-section').hide();
+    $(".head-foods").click(function(){
+            $('.foods-menu').fadeIn(100);
+            $('.pizza-menu').hide();
+            $('.sea-menu').hide();
+            $('.drink-menu').hide();
                                 })
-    $(".light").click(function(){
-            $('.light-food-section').fadeIn(100);
-            $('.sweet-section').hide();
-            $('.cold-drinks-section').hide();
-            $('.hot-drinks-section').hide();
-                                })
-})
+    $(".head-sea").click(function(){
+            $('.sea-menu').fadeIn(100);
+            $('.pizza-menu').hide();
+            $('.foods-menu').hide();
+            $('.drink-menu').hide();
+          })
 
 
 $(".reviewOrder").click(function(){

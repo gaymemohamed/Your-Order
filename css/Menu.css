@@ -1,0 +1,329 @@
+
+.navbar{
+  border-bottom: white 3px solid;
+  opacity: .8;
+  max-height: 80px;
+  background-color: #333;
+}
+.navbar img{
+  width: 75px;
+  height: 75px
+}
+.navbar a{
+  color: #fff
+}
+.navbar-expand-sm .navbar-nav .dropdown-menu{
+  background-color: #000
+}
+.pizza{
+    padding 70px 0
+}
+.pizza h1{
+    font-family 'Raleway', sans-serif;
+    letter-spacing -2px;
+    font-size 62px;
+    margin-top: 25px
+  }
+.pizza hr{
+    width 70%;
+}
+.category{
+  margin-bottom: 80px
+}
+.head-pizza, .head-drinks , .head-sea , .head-foods , .order{
+    border: 1px solid #ddd;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #444;
+    display: inline-block;
+    width: 104px;
+    cursor: pointer;
+}
+.category .head-pizza{
+  position: absolute;
+  left: 80px;
+}
+.category .head-sea{
+    position: absolute;
+    left: 300px;
+}
+.category .head-foods{
+  position: absolute;
+  left: 530px;
+}
+.category .head-drinks{
+  position: absolute;
+  left: 755px;
+}
+.category .order{
+  position: absolute;
+  left: 940px;
+  text-decoration: none;
+
+}
+.category a{
+  color: #fff
+}
+#menu .pizza-menu{
+      margin-left: 61px;
+      position: relative;
+      float: left;
+
+    }
+.pizza-item{
+  margin: 30px 30px 40px;
+  float: left;
+  position: relative;
+  border: 1px solid #ddd
+}
+
+.pizza-item-name{
+  position: absolute;
+    top: 4px;
+    left: 110px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+.pizza-item-price{
+    position: absolute;
+    top: 78px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    font-weight: bold;
+}
+.customize7 , .customize8 ,.customize9, .customize10, .customize11, .customize12{
+    color: #fff;
+    background-color: #333;
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    top :377px;
+
+}
+.undo7 , .undo8,.undo9 , .undo10 , .undo11 ,.undo12{
+  color: #fff;
+  background-color: #333;
+  position: absolute;
+  left: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  top :377px;
+
+
+}
+.pizza-menu .input7 , .input8 , .input9 , .input10 , .input11 , .input12{
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  position: absolute;
+  top: 378px;
+  left: 171px;
+}
+/*Drinks*/
+#menu .drink-menu{
+      margin-left: 61px;
+      position: relative;
+      float: left;
+      display: none;
+    }
+.drink-item{
+  margin: 30px 30px 40px;
+  float: left;
+  position: relative;
+  border: 1px solid #ddd
+}
+
+.drink-item-name{
+  position: absolute;
+    top: 4px;
+    left: 110px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+.drink-item-price{
+    position: absolute;
+    top: 78px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    font-weight: bold;
+}
+.customize19 , .customize20 ,.customize21, .customize22, .customize23, .customize24{
+    color: #fff;
+    background-color: #333;
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    top :377px;
+
+}
+.undo19 , .undo20,.undo21 , .undo22 , .undo23 ,.undo24{
+  color: #fff;
+  background-color: #333;
+  position: absolute;
+  left: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  top :377px;
+
+
+}
+.drink-menu .input19 , .input20 , .input21 , .input22 , .input23 , .input24{
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  position: absolute;
+  top: 378px;
+  left: 171px;
+}
+/*sea-foods */
+#menu .sea-menu{
+      margin-left: 61px;
+      position: relative;
+      float: left;
+      display: none;
+    }
+.sea-item{
+  margin: 30px 30px 40px;
+  float: left;
+  position: relative;
+  border: 1px solid #ddd
+}
+
+.sea-item-name{
+  position: absolute;
+    top: 4px;
+    left: 110px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+.sea-item-price{
+    position: absolute;
+    top: 78px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    font-weight: bold;
+}
+.customize13 , .customize14 ,.customize15, .customize16, .customize17, .customize18{
+    color: #fff;
+    background-color: #333;
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    top :377px;
+
+}
+.undo13 , .undo14,.undo15 , .undo16 , .undo17 ,.undo18{
+  color: #fff;
+  background-color: #333;
+  position: absolute;
+  left: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  top :377px;
+
+
+}
+.sea-menu .input13 , .input14 , .input15 , .input16 , .input17 , .input18{
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  position: absolute;
+  top: 378px;
+  left: 171px;
+}
+/*foods*/
+#menu .foods-menu{
+      margin-left: 61px;
+      position: relative;
+      float: left;
+      display: none;
+    }
+.foods-item{
+  margin: 30px 30px 40px;
+  float: left;
+  position: relative;
+  border: 1px solid #ddd
+}
+
+.foods-item-name{
+  position: absolute;
+    top: 4px;
+    left: 110px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+.foods-item-price{
+    position: absolute;
+    top: 78px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    font-weight: bold;
+}
+.customize1 , .customize2 ,.customize3, .customize4, .customize5, .customize6{
+    color: #fff;
+    background-color: #333;
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    top :377px;
+
+}
+.undo1 , .undo2 ,.undo3 , .undo4 , .undo5 ,.undo6{
+  color: #fff;
+  background-color: #333;
+  position: absolute;
+  left: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  top :377px;
+
+
+}
+.foods-menu .input1 , .input2 , .input3 , .input4 , .input5 , .input6{
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  position: absolute;
+  top: 378px;
+  left: 171px;
+}
+.main-footer{
+    height: 102px;
+    position: absolute;
+    top: 1150px;
+    background-color: #444;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 18px;
+
+}
